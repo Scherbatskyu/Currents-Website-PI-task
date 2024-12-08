@@ -1,0 +1,11 @@
+
+.courses .details h6 {
+	color: rgb(117, 255, 110); /* Sets the text color to white for span, h6, and h7 */
+}
+.courses .details span{
+    color:rgb(219, 227, 234)
+}
+
+#course p {
+    color: rgb(134, 246, 22); /* Makes the text in the <p> tag white */
+}

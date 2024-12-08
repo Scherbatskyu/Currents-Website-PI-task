@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currents'24</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/currents_logo-removebg-preview.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html" class="active">Home</a></li>
+				
+				<li><a href="comp.html">Competitions</a></li>
+				<li><a href="workshop.html">Workshops</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			Currents'24
+		</h2>
+		<p>
+			Annual Technical Symposium of the Electrical and Electronics Engineering Association, NIT Trichy.
+		</p>
+		<div class="btn">
+			<a href="contact.html" class="blue">Learn More</a>
+			<a href="workshop.html" class="yellow">Events</a>
+		</div>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Empowering Innovation, Illuminating the Future.</h1>
+		<p>Be a part of the spark that drives innovation!</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>State-of-the-Art Workshops</h3>
+				<p>
+					Hands-on workshops focused on real world applications, exploring cutting edge technologies and practical skills in electronics.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Tronicals</h3>
+				<p>
+					Tronicals, our department's bi annual technical magazine
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Guest Lectures</h3>
+				<p>
+					Insightful guest lectures from esteemed academicians and industry leaders, offering valuable knowledge and perspectives on latest trends and innovations in the world of electronics.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+
+	<!-- Courses section starts from here -->
+	<section id="course">
+		
+		
+		
+				
+					
+			
+	</section>
+	<!-- Courses section ends from here -->
+
+
+	<!-- Registration section starts from here -->
+	<section id="registration">
+		<div class="reminder">
+			<p>Participate in exciting competitions with cash prizes, offeirng a platform to showcase skills,foster creativity, and compete with creme de la creme.</p>
+			<h1>Register now to be a part of Currents'24</h1>
+
+			<div class="time">
+				<div class="date">28 <br> Days</div>
+				<div class="date">23 <br> Hours</div>
+				<div class="date">06 <br> Minutes</div>
+				<div class="date">58 <br> Seconds</div>
+			</div>
+		</div>
+
+		<div class="form">
+			<h3>Create your account!</h3>
+
+			<input type="text" placeholder="Name" name="" id="">
+			<input type="email" placeholder="Email ID" name="" id="">
+			<input type="text" placeholder="Contact Number" name="" id="">
+
+			<div class="btn">
+				<a href="#" class="yellow">Submit Form</a>
+			</div>
+		</div>
+	</section>
+	<!-- Registration section ends from here -->
+
+
+	<!-- Experts section starts from here -->
+	<section id="experts">
+		<h1>Our Sponsors</h1>
+		
+		<div class="expert-box">
+			<div class="profile">
+				<img src="img/micron.jpeg" alt="">
+				<h6>Micron</h6>
+				
+				
+			</div>
+
+			<div class="profile">
+				<img src="img/qualcomm.jpeg" alt="">
+				<h6>Qualcomm</h6>
+				
+				
+			</div>
+
+			<div class="profile">
+				<img src="img/ies.jpeg" alt="">
+				<h6>IES Academy</h6>
+				
+				
+			</div>
+
+			<div class="profile">
+				<img src="img/texas.png" alt="">
+				<h6>Texas Instruments</h6>
+				
+				
+			</div>
+		</div>
+	</section>
+	<!-- Experts section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2024 All rights reserved | Made by Vishnupriya
+			</p>
+			<div class="pro-links">
+				<a href="https://www.instagram.com/currents_nitt/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://www.facebook.com/currentsnitt/" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://in.linkedin.com/company/currents-nitt" target="_blank">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</div>
+						
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

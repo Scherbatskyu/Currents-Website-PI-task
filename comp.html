@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currents'24</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	
+	<link rel="stylesheet" href="comp.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/currents_logo-removebg-preview.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				
+				<li><a href="comp.html" class="active">Competitions</a></li>
+				<li><a href="workshop.html">Workshops</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Think.Create.Conquer.
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Blog container starts from here -->
+	<section id="blog-container">
+		<div class="blogs">
+			<div class="post">
+				<img src="img/gatethon.jpeg" alt="">
+				<h3>Gate-A-Thon</h3>
+				<p>
+					Combine your knowledge of gates to solve exciting puzzles in a race to win prizes worth 3k. Open exclusively for first and second year B-tech students. 
+				</p>
+				
+			</div>
+
+			<div class="post">
+				<img src="img/circuit craze.jpeg" alt="">
+				<h3>Circuit Craze</h3>
+				<p>
+					Test your circuital knowledge to troubleshoot a faulty hardware circuit and identify the glitch- whether it's miswired connection or an incomplete setup.
+				</p>
+				
+			</div>
+
+			<div class="post">
+				<img src="img/crticalthink.jpeg" alt="">
+				<h3>Dhruva</h3>
+				<p>
+					A problem solving and creativity competition to put your critical thinking skills to test. Prizes worth 5K.
+				</p>
+				
+			</div>
+
+			<div class="post">
+				<img src="img/casestudy.jpeg" alt="">
+				<h3>Enigma</h3>
+				<p>
+					A case study challenge which requires participants to come up with innovative engineering solutions to help businesses solve unique problems.
+				</p>
+				
+			</div>
+
+			<div class="post">
+				<img src="img/ev.jpeg" alt="">
+				<h3>Electrabet</h3>
+				<p>
+					Encouraging all EV enthusiasts to navigate through twists and turns of Electrabet where betting with points isn't just a luck but an opportunity to unlock your enthralling ideas or sustainable mobility!
+				</p>
+				
+			</div>
+
+			<div class="post">
+				<img src="img/b1.jpg" alt="">
+				<h3>Code Currents</h3>
+				<p>
+					Unleash your inner coding genius and prove your emttle against the clock. CodeCurrents is designed to test your programming prowess and sharpen your problem solving skill. Get a chance to snag your share pf 5K prize pool!
+				</p>
+				
+			</div>
+
+			<div class="post">
+				<img src="img/photography.jpeg" alt="">
+				<h3>Capture currents</h3>
+				<p>
+					 "click" and capture the moment! Are you passionate about photography? Well, we've got you covered. Take up your lens and bring out the best photographer in you. 
+				</p>
+				
+			</div>
+
+			<div class="post">
+				<img src="img/colloquium.jpg" alt="">
+				<h3>Colloquium</h3>
+				<p>
+					A prestigious shpwcase for technical paper presentations. Explore, innovate and present your visionary concepts to peers, professors, and industry luminaries.
+				</p>
+				
+			</div>
+		</div>
+		<div class="cate">
+			<h2>Categories</h2>
+			<hr>
+			<a href="#">Coding [software]</a>
+			<hr>
+			<a href="#">Circuits [Hardware] </a>
+			<hr>
+			<a href="#">Research Papers</a>
+			<hr>
+			<a href="#">Case Studies</a>
+			<hr>
+			<a href="#">Photography</a>
+			<hr>
+			<a href="#">EV</a>
+		</div>
+	</section>
+	<!-- Blog container ends from here -->
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2024 All rights reserved | Made by Vishnupriya
+			</p>
+			<div class="pro-links">
+				<a href="https://www.instagram.com/currents_nitt/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://www.facebook.com/currentsnitt/" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://in.linkedin.com/company/currents-nitt" target="_blank">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</div>
+						
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

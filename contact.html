@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currents'24</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	
+	
+	<link rel="stylesheet" href="contact.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/currents_logo-removebg-preview.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				
+				<li><a href="comp.html">Competitions</a></li>
+				<li><a href="workshop.html">Workshops</a></li>
+				<li><a href="contact.html" class="active">Contact Us</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Contact Us/
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<section id="contact">
+		<div class="getin">
+			<h2>Get in touch with us!</h2>
+			<p>Looking to enroll your university? Fill the form and start a new adventure.</p>
+
+			<div class="getin-details">
+				<h3>Location</h3>
+				<div>
+					<i class="fa-solid fa-map get"></i>
+					<p>NIT Trichy, Thanjavur main road, near BHEL, Thuvakudi,Tamil Ndu - 620015</p>
+				</div>
+
+				<h3>Phone</h3>
+				<div>
+					<i class="fas fa-phone-alt get"></i>
+					<p>(+91) 8080808099 <br> (+91) 8080800990</p>
+				</div>
+
+				<h3>Support</h3>
+				<div>
+					<i class="fa-solid fa-envelope get"></i>
+					<p>currents@nitt.edu.in.com </p>
+				</div>
+
+				<h3>Follow Us</h3>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+					<i class="fab fa-behance"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="form">
+			<h4>Let's Connect</h4>
+			<p>Sign up for our campus ambassador program! </p>
+			<div class="form-row">
+				<input type="text" placeholder="Your Name">
+				<input type="email" placeholder="Your Email">
+			</div>
+			<div class="form-col">
+				<input type="text" placeholder="What makes you fit for this role?">
+			</div>
+			<div class="form-col">
+				<textarea name="" id="" cols="30" rows="8" placeholder="Ask us your queries if any!"></textarea>
+			</div>
+
+			<div class="form-col">
+				<button>Submit</button>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2024 All rights reserved | Made by Vishnupriya
+			</p>
+			<div class="pro-links">
+				<a href="https://www.instagram.com/currents_nitt/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://www.facebook.com/currentsnitt/" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://in.linkedin.com/company/currents-nitt" target="_blank">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</div>
+						
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

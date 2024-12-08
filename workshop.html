@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currents'24</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="workshop.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/currents_logo-removebg-preview.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				
+				<li><a href="comp.html">Competitions</a></li>
+				<li><a href="workshop.html" class="active">Workshops</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Workshops
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+		<!-- Courses section starts from here -->
+	<section id="course">
+		<h1>Our Most Awaited Workshops</h1>
+		<p>Don't miss the chance to level up your skills, dive into hands-on learning and be a part of the tech revolution- join our workshops today!!</p>
+
+		<div class="course-box">
+			<div onclick="window.location.href='course-inner.html'" class="courses">
+				<img src="img/robogrip.jpeg" alt="">
+				<div class="details">
+					<span>2 day workshop</span>
+					<h6>Robo Gripper</h6>
+					<span>Basics of Arduino and App development to help you get started with robotics.</span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/renew.jpeg" alt="">
+				<div class="details">
+					<span>1 day workshop</span>
+					<h6>Integration of Renewable energy and microgrid solutions in modern power system</h6>
+					<span>Navigate the dynamic landscape of energy sustainability</span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/arduino.jpeg" alt="">
+				<div class="details">
+					<span>1 day workshop + Takeaway kit</span>
+					<h6>Advanced Arduino Course with Morse Code Detector</h6>
+					<span>Learn to construct a Morse code detector from scratch</span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/deeplearn.jpeg" alt="">
+				<div class="details">
+					<span>3 day workshop</span>
+					<h6>Deep Learning for Segmentation</h6>
+					<span>Implementing Image segmentation Algorithms using popular Python libraries such as Tensorflow,Pytorch,OpenCV</span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/cipher.jpeg" alt="">
+				<div class="details">
+					<span>2 day workshop</span>
+					<h6>CipherChat</h6>
+					<span> Web Development Workshop on Building Social Chatapp with e2e encryption</span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/microcontrol.jpeg" alt="">
+				<div class="details">
+					<span>3 day workshop</span>
+					<h6>Embedded software development on Microcontrolllers</h6>
+					<span>By Texas Instruments</span>
+
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/verilog.jpeg" alt="">
+				<div class="details">
+					<span>3 day workshop</span>
+					<h6>Verilog to SystemVerilog for Digital Designs</h6>
+					<span>By Synopsys</span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/imgprocess.jpeg" alt="">
+				<div class="details">
+					<span>1 day workshop</span>
+					<h6>Image Processing</h6>
+					<span>Build a camera UI in Python for basic operations </span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/evcharge.jpeg" alt="">
+				<div class="details">
+					<span>1 day workshop</span>
+					<h6>Electric Vehicles Charging</h6>
+					<span>Working,design and simulation of a converter for EV charging applications</span>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="courses">
+				<img src="img/ml.jpeg" alt="">
+				<div class="details">
+					<span>2 day workshop</span>
+					<h6>Machine Learning </h6>
+					<span>Convert Black and White images to color using machine learning </span>
+
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Courses section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2024 All rights reserved | Made by Vishnupriya
+			</p>
+			<div class="pro-links">
+				<a href="https://www.instagram.com/currents_nitt/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://www.facebook.com/currentsnitt/" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://in.linkedin.com/company/currents-nitt" target="_blank">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</div>
+						
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
