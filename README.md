@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/1809fe4b-89cf-4744-a306-78a171d0b9b5
+
+
+
+
+
 # Currents-Website-PI-task
 i made this website for the annual technical symposium of EEE Association,Currents at NIT trichy
 ![Screenshot 2024-12-08 083707](https://github.com/user-attachments/assets/95fd8ca3-5d56-4e22-be8f-41e78a52611b)
